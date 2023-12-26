@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://blog.ko.playstation.com/tachyon/sites/9/2023/09/a0630621dd3bd447968d141cc37fe9c0480c4cbd.jpg?resize=1088%2C612&crop_strategy=smart&zoom=1.5');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 50px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: white;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.table-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
